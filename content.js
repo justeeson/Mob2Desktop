@@ -1,5 +1,5 @@
 /**
- * @author DarkShanks 
+ * @author Sebastin Justeeson
  */
 
 // Obtain URL and check if it is a mobile link
