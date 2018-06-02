@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Mobile to Desktop Switcher",
+	"description": "Automatically switch from mobile site to desktop site",
+	"icons": { "16": "16.png", "128": "128.png" },
+	 "content_scripts": [
+		{
+			"matches": [
+			"<all_urls>"
+			],
+		"js": ["jquery.js", "content.js"],
+		"run_at": "document_start"
+		}
+	],
+	"browser_action": {
+    "default_icon": "16.png"
+	},
+	"version": "0.1"
+}
